@@ -13,7 +13,7 @@ setup() {
 draw() {
   clear();
   const [p1, p2, p3, p4] = points;
-
+  console.log(points)
   setStroke(`black`);
   this.drawLine(p1,p2);
   this.drawLine(p3,p4);
